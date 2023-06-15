@@ -278,6 +278,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@garcia-enterprise/gatsby-plugin-sass-resources@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@garcia-enterprise/gatsby-plugin-sass-resources@workspace:."
+  dependencies:
+    "@babel/cli": ^7.22.5
+    "@babel/core": ^7.22.5
+    "@babel/runtime": ^7.22.5
+    sass-resources-loader: ^2.2.5
+    webpack: ^5.87.0
+  peerDependencies:
+    gatsby: ^5.0.0
+  languageName: unknown
+  linkType: soft
+
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
   resolution: "@isaacs/cliui@npm:8.0.2"
@@ -1226,20 +1240,6 @@ __metadata:
   conditions: os=darwin
   languageName: node
   linkType: hard
-
-"gatsby-plugin-sass-resources@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "gatsby-plugin-sass-resources@workspace:."
-  dependencies:
-    "@babel/cli": ^7.22.5
-    "@babel/core": ^7.22.5
-    "@babel/runtime": ^7.22.5
-    sass-resources-loader: ^2.2.5
-    webpack: ^5.87.0
-  peerDependencies:
-    gatsby: ^5.0.0
-  languageName: unknown
-  linkType: soft
 
 "gauge@npm:^4.0.3":
   version: 4.0.4

@@ -8,8 +8,8 @@ SASS resources (e.g. variables, mixins etc.) plugin for Gatsby
 
 ## How to use
 
-1.  Include the plugin in your `gatsby-config.js` file.
-2.  Write your resources stylesheets in SASS/SCSS and include it in the resources list in the options as shown below.
+1. Include the plugin in your `gatsby-config.js` file.
+2. Write your resources stylesheets in SASS/SCSS and include it in the resources list in the options as shown below.
 
 ```javascript
 // in gatsby-config.js
@@ -20,6 +20,7 @@ plugins: [{
   }
 }]
 ```
+
 Built using [sass-resources-loader](https://github.com/shakacode/sass-resources-loader)
 <!-- ## Breaking changes history -->
 

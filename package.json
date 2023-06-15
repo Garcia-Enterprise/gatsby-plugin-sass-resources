@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-plugin-sass-resources",
+  "name": "@garcia-enterprise/gatsby-plugin-sass-resources",
   "packageManager": "yarn@3.6.0",
   "version": "4.0.0",
   "author": "Eric N. Garcia <eng618@garciaericn.com>",
