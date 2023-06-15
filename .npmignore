@@ -37,3 +37,4 @@ examples
 .gitattributes
 .tool-versions
 .yarn/
+.env
