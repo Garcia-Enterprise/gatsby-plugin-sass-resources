@@ -3,24 +3,29 @@
   "packageManager": "yarn@3.6.0",
   "version": "3.0.1",
   "author": "Eric N. Garcia <eng618@garciaericn.com>",
+  "repository": "git@github.com:Garcia-Enterprise/gatsby-plugin-sass-resources.git",
   "bugs": {
     "url": "https://github.com/Garcia-Enterprise/gatsby-plugin-sass-resources/issues"
   },
   "description": "SASS resources (e.g. variables, mixins etc.) plugin for Gatsby",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "prepublish": "NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir ."
+  },
   "dependencies": {
     "@babel/runtime": "^7.22.5",
-    "sass-resources-loader": "^1.3.5",
+    "sass-resources-loader": "^2.2.5",
     "webpack": "^5.87.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.22.5",
-    "@babel/core": "^7.22.5",
-    "cross-env": "^5.2.1"
+    "@babel/core": "^7.22.5"
   },
   "peerDependencies": {
-    "gatsby": "^4.0.0"
+    "gatsby": "^5.0.0"
   },
   "readme": "README.md",
   "keywords": [
@@ -30,10 +35,5 @@
     "scss",
     "sass-resources",
     "scss-resources"
-  ],
-  "scripts": {
-    "build": "babel src --out-dir .",
-    "prepublish": "cross-env NODE_ENV=production npm run build",
-    "watch": "babel -w src --out-dir ."
-  }
+  ]
 }
