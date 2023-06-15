@@ -1,6 +1,7 @@
 /gatsby-node.js
 /yarn-error.log
 /node_modules/
+.env
 
 # yarn Zero-install settings
 .yarn/*

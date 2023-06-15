@@ -13,7 +13,8 @@
   "scripts": {
     "build": "babel src --out-dir .",
     "prepublish": "NODE_ENV=production npm run build",
-    "watch": "babel -w src --out-dir ."
+    "watch": "babel -w src --out-dir .",
+    "release": "auto shipit"
   },
   "dependencies": {
     "@babel/runtime": "^7.22.5",
@@ -21,8 +22,12 @@
     "webpack": "^5.87.0"
   },
   "devDependencies": {
+    "@auto-it/all-contributors": "^10.46.0",
+    "@auto-it/conventional-commits": "^10.46.0",
+    "@auto-it/twitter": "^10.46.0",
     "@babel/cli": "^7.22.5",
-    "@babel/core": "^7.22.5"
+    "@babel/core": "^7.22.5",
+    "auto": "^10.46.0"
   },
   "peerDependencies": {
     "gatsby": "^5.0.0"
@@ -35,5 +40,19 @@
     "scss",
     "sass-resources",
     "scss-resources"
-  ]
+  ],
+  "auto": {
+    "plugins": [
+      [
+        "twitter",
+        {
+          "threshold": "patch"
+        }
+      ],
+      "npm",
+      "all-contributors",
+      "conventional-commits",
+      "released"
+    ]
+  }
 }
