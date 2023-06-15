@@ -1,10 +1,10 @@
-# gatsby-plugin-sass-resources
+# @garcia-enterprise/gatsby-plugin-sass-resources
 
 SASS resources (e.g. variables, mixins etc.) plugin for Gatsby
 
 ## Install
 
-`npm install --save node-sass gatsby-plugin-sass gatsby-plugin-sass-resources`
+`npm install --save node-sass gatsby-plugin-sass @garcia-enterprise/gatsby-plugin-sass-resources`
 
 ## How to use
 
@@ -14,7 +14,7 @@ SASS resources (e.g. variables, mixins etc.) plugin for Gatsby
 ```javascript
 // in gatsby-config.js
 plugins: [{
-  resolve: `gatsby-plugin-sass-resources`,
+  resolve: `@garcia-enterprise/gatsby-plugin-sass-resources`,
   options: {
     resources: ['./path/to/resources.scss']
   }
