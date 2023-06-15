@@ -32,3 +32,8 @@ flow-typed
 coverage
 decls
 examples
+
+.editorconfig
+.gitattributes
+.tool-versions
+.yarn/
