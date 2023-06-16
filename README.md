@@ -22,6 +22,7 @@ plugins: [{
 ```
 
 Built using [sass-resources-loader](https://github.com/shakacode/sass-resources-loader)
+
 <!-- ## Breaking changes history -->
 
 <!-- Please keep the breaking changes list ordered with the newest change at the top -->

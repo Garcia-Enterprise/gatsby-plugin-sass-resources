@@ -27,13 +27,10 @@
   "peerDependencies": {
     "gatsby": "^5.0.0"
   },
-  "readme": "README.md",
   "keywords": [
     "gatsby",
     "gatsby-plugin",
     "sass",
-    "scss",
-    "sass-resources",
-    "scss-resources"
+    "sass-resources"
   ]
 }
